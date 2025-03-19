@@ -48,3 +48,14 @@ button:hover {
 .button:hover {
     background: #0056b3;
 }
+.elo:hover{
+    color: rgb(51, 255, 0);
+    text-decoration: none;
+}
+.elo{
+    color: #0028ad;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
