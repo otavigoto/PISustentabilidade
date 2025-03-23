@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Login</title>
+    <title>Green.Go - Index</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Login</h2>
-        <form>
-            <input type="email" placeholder="Digite seu e-mail" required>
-            <input type="password" placeholder="Digite sua senha" required>
-            <a href="home.html" class="button">Entrar</a>
-            <a href="cadastro.html" class="elo">cadastrar-se</a>
-        </form>
+    <input type="checkbox" id="menu-input" name="menu-input" checked>
+    <nav class="menu">
+        <label class="label-img-menu" for="menu-input"><img class="img-menu" src="./assets/img/IconMenu_LimeGreen.png" alt="Imagem Menu"></label>
+        <ul>
+            <li class="opt-menu"><a href="#principal">Home</a></li>
+            <li class="opt-menu"><a href="#sobre-page">Sobre</a></li>
+            <li class="direita"><a href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div id="principal" class="principal">
+        <img class="img-logo" src="./assets/img/LimeWhite_Logo.png" alt="Imagem da logo">
+        <h1 class="texto-logo">Seu estilo de vida mais sustentável!</h1>
+        <h2 class="texto-embaixo">FHJNO Software Coporation</h2>
     </div>
+    <section id="sobre-page" class="sobre-page">
+        <div class="box-esquerda">
+            <h2>
+                Você já se perguntou qual é o impacto real do seu estilo de vida no planeta?
+            </h2>
+            <p>
+                Pequenos hábitos diários, como o tempo no chuveiro, o transporte que você escolhe ou a quantidade de resíduos que gera, fazem toda a diferença. Mas como medir isso de forma simples e tomar decisões mais sustentáveis?
+            </p>
+            <h2>
+                É aqui que entra o GreenGo!
+            </h2>
+            <p>
+                Nossa plataforma foi criada para ajudar você a entender e melhorar sua pegada ambiental, de forma prática e baseada em dados. Monitoramos seu consumo de água, energia, transporte e resíduos, transformando essas informações em insights personalizados e metas realistas.
+            </p>
+        </div>
+        <div class="box-direita">
+            <p>
+                Tome decisões inteligentes: Descubra onde você pode reduzir desperdícios e economizar.
+            </p>
+            <p>
+                Veja seu impacto em tempo real: Acompanhe sua evolução e compare com a média de outros usuários.
+            </p>
+            <p>
+                Receba recomendações práticas: Pequenas mudanças que fazem uma grande diferença. <br> O futuro sustentável começa agora, e você pode fazer parte dele.
+            </p>
+            <p>
+                Cadastre-se no GreenGo e dê o primeiro passo para um estilo de vida mais sustentável!
+            </p>
+            <img class="mini-logo" src="./assets/img/DarkGreen_Logo.png" alt="Imagem da Logo pequena">
+        </div>
+    </section>
+    
 </body>
 </html>

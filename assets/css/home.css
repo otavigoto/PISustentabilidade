@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(to bottom right, #46f062, #a9bbff);
 }
 header {
     background-color: #2c2828;
