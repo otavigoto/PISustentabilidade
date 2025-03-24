@@ -1,0 +1,15 @@
+body{
+    background-image: url(/assets/img/Background_Eletricidade.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.menu-img-logo{
+    position:absolute;
+    left:37%;
+    top: 50px;
+    width: 350px;
+  }

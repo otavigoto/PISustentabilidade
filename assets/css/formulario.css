@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/img/18.png);
+    background-image: url(/assets/img/Background_Transporte.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -33,10 +33,10 @@ form{
     margin-left: 200px;
 }
 select{
-    height: 75px;
-    width: 500px;
+    height: 100px;
+    width: 550px;
     background: none;
-    border-radius: 37.5px;
+    border-radius: 50px;
     border-color: yellow;
     text-align: left;
     text-decoration: none;
@@ -61,7 +61,7 @@ input{
     height: 75px;
     width: 500px;
     background: none;
-    border-radius: 37.5px;
+    border-radius: 50px;
     border-color: yellow;
     text-align: left;
     text-decoration: none;
