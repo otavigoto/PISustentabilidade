@@ -6,6 +6,7 @@ a:hover{
   text-decoration:underline;
 }
 
+
 nav{
   z-index:1000;
 }
@@ -16,6 +17,13 @@ label img.img-menu{
 
 label.label-img-menu{
   align-items: center;
+}
+
+.menu-img-logo{
+  position:absolute;
+  left:40%;
+  top: 50px;
+  width: 350px;
 }
 
 .img-menu{

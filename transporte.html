@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+</head>
+<body>
+    <input type="checkbox" id="menu-input" name="menu-input" checked>
+    <nav class="menu">
+        <label class="label-img-menu" for="menu-input"><img class="img-menu" src="./assets/img/IconMenu_LimeGreen.png" alt="Imagem Menu"></label>
+        <ul>
+            <li class="opt-menu"><a href="#principal">Home</a></li>
+            <li class="opt-menu"><a href="#sobre-page">Sobre</a></li>
+            <a href="home.html"><img class="menu-img-logo" src="./assets/img/Lime_Logo.png"></a>
+            <li class="direita"><a href="./login.html">Nome usuário</a></li>
+        </ul>
+    </nav>
+    <div class="fundo">
+        <div class="esquerda">
+            <form class="info-transporte">
+                <select id="select-opcao" class="selecao" name="select-opcao" >
+                    <option value="" disabled selected class="caixa">Escolha uma opção...</option>
+                    <option value="opcao1" class="caixa">Opção 1</option>
+                    <option value="opcao2" class="caixa">Opção 2</option>
+                    <option value="opcao3" class="caixa">Opção 3</option>
+                </select><br>
+                <input type="text" class="distancia" placeholder="insira a distancia percorrida"><br>
+                <input type="text" class="time" placeholder="insira o tempo do trajeto"><br>
+                <input type="date" class="data" placeholder="DD/MM/AAAA"><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="direita">
+            <h2>Meios de<br>Transporte</h2>
+        </div>
+    </div>
+</body>
