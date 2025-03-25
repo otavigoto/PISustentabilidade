@@ -7,6 +7,45 @@ body{
     width: 100vw;
     height: 100vh;
 }
+body.Transporte{
+    background-image: url(/assets/img/Background_Transporte.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body.agua{
+    background-image: url(/assets/img/Background_Agua.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body.Energia{
+    background-image: url(/assets/img/Background_Eletricidade.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body.Lixo{
+    background-image: url(/assets/img/Background_Lixo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 div.fundo{
     height: 100vh;
     pointer-events: none;
@@ -106,3 +145,10 @@ h2{
     font-weight: bold;
     color: #f2ff00;
 }
+
+.menu-img-logo{
+    position:absolute;
+    left:37%;
+    top: 50px;
+    width: 350px;
+  }
