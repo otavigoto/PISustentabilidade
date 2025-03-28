@@ -6,68 +6,7 @@
   <title>Indices</title>
   <link rel="stylesheet" href="./assets/css/navbar.css">
   <link rel="stylesheet" href="./assets/css/formulario.css">
-  <style>
-    body {
-      background: #000000ee;
-      color: #f2ff00;
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .historico-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 80px 50px;
-    }
-
-    .box-esquerda {
-      width: 45%;
-    }
-
-    .box-esquerda h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-
-    .box-esquerda p {
-      font-size: 20px;
-      margin: 15px 0;
-      border: 2px solid #f2ff00;
-      padding: 10px 15px;
-      border-radius: 20px;
-    }
-
-    .box-direita {
-      width: 50%;
-      text-align: center;
-    }
-
-    .box-direita img {
-      width: 50px;
-      border-radius: 50%;
-      float: right;
-    }
-
-    .grafico {
-      height: 300px;
-      width: 100%;
-      margin-top: 20px;
-    }
-
-    .indice {
-      font-size: 35px;
-      font-weight: bold;
-      margin-top: 30px;
-      color: #f2ff00;
-    }
-
-    canvas {
-      background: #222;
-      border-radius: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/css/indice.css">
 </head>
 <body>
   <input type="checkbox" id="menu-input" name="menu-input" checked>
@@ -85,12 +24,13 @@
 
   <div class="historico-container">
     <div class="box-esquerda">
-      <h1>Histórico de Dados</h1>
+      <h1>Notas de cada parâmetro</h1>
       <p>DD/MM/AAAA - DD/MM/AAAA</p>
       <p>Consumo de energia: <strong>D</strong></p>
       <p>Consumo de água: <strong>C</strong></p>
       <p>Uso de Transporte: <strong>B</strong></p>
       <p>Resíduos Recicláveis: <strong>A</strong></p>
+      <a href="historico.html" class="botaohistorico">Ver Histórico</a>
     </div>
 
     <div class="box-direita">
